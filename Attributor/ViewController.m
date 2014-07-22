@@ -38,11 +38,6 @@
                                                  name :UIContentSizeCategoryDidChangeNotification object : nil];
 }
 
--(void)viewWillDisappear:(BOOL)animated
-{
-
-}
-
 -(void)preferredFontsChanged:(NSNotification *)notification
 {
     [self usePreferredFonts];
