@@ -22,6 +22,7 @@
 		EB2CC0601978182400D53579 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB2CC05E1978182400D53579 /* InfoPlist.strings */; };
 		EB2CC0621978182400D53579 /* AttributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2CC0611978182400D53579 /* AttributorTests.m */; };
 		EB5D437C1979140B001F8829 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5D437B1979140B001F8829 /* TextStatsViewController.m */; };
+		EBF0DE0A197EA05100396040 /* NextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF0DE09197EA05100396040 /* NextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		EB2CC0611978182400D53579 /* AttributorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorTests.m; sourceTree = "<group>"; };
 		EB5D437A1979140B001F8829 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
 		EB5D437B1979140B001F8829 /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
+		EBF0DE08197EA05100396040 /* NextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextView.h; sourceTree = "<group>"; };
+		EBF0DE09197EA05100396040 /* NextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				EB2CC0481978182400D53579 /* Main.storyboard */,
 				EB5D437A1979140B001F8829 /* TextStatsViewController.h */,
 				EB5D437B1979140B001F8829 /* TextStatsViewController.m */,
+				EBF0DE08197EA05100396040 /* NextView.h */,
+				EBF0DE09197EA05100396040 /* NextView.m */,
 				EB2CC04B1978182400D53579 /* ViewController.h */,
 				EB2CC04C1978182400D53579 /* ViewController.m */,
 				EB2CC04E1978182400D53579 /* Images.xcassets */,
@@ -257,6 +262,7 @@
 				EB2CC04D1978182400D53579 /* ViewController.m in Sources */,
 				EB2CC0471978182300D53579 /* AppDelegate.m in Sources */,
 				EB2CC0431978182300D53579 /* main.m in Sources */,
+				EBF0DE0A197EA05100396040 /* NextView.m in Sources */,
 				EB5D437C1979140B001F8829 /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
