@@ -26,7 +26,7 @@
     
     if (self.view.window)
     {
-  //      [self updateUI];
+        [self updateUI];
     }
 }
 
@@ -35,7 +35,9 @@
 //    self.outlinedColorLabel.text = [NSString stringWithFormat:@"%d colorful char",[[self charactersWithAttributes:NSForegroundColorAttributeName] length]];
 //    self.colorfulColorLabel.text = [NSString stringWithFormat:@"%d outline char",[[self charactersWithAttributes:NSStrokeWidthAttributeName] length]];
     
-    self.colorfulColorLabel.text = [NSString stringWithFormat:@"color123 %d",self.changedColourText];
+
+    self.colorfulColorLabel.text = [NSString stringWithFormat:@"color786 %d",self.changedColourText];
+
     self.outlinedColorLabel.text = [NSString stringWithFormat:@"outline %d",self.changedOutlineText];
 }
 
