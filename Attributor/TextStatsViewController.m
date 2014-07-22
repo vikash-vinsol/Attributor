@@ -72,7 +72,7 @@
     _colorfulColorLabel.text = [NSString stringWithFormat:@"color %d",myVC1ref.colorfulNumber];
     _outlinedColorLabel.text = [NSString stringWithFormat:@"outline %d",myVC1ref.outlinedNumber];
     
-    
+    NSLog(@"View Load success");
 }
 
 @end
