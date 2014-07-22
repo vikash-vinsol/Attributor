@@ -68,9 +68,7 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     ViewController *myVC1ref = (ViewController*)[self.tabBarController.viewControllers objectAtIndex:0];
-    
-    myVC1ref.changedOutlineText = self.colorfulColorLabel.text;
-    
+        
     _colorfulColorLabel.text = [NSString stringWithFormat:@"color %d",myVC1ref.colorfulNumber];
     _outlinedColorLabel.text = [NSString stringWithFormat:@"outline %d",myVC1ref.outlinedNumber];
     
