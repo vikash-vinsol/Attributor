@@ -26,7 +26,7 @@
     
     if (self.view.window)
     {
-  //      [self updateUI];
+        [self updateUI];
     }
 }
 
