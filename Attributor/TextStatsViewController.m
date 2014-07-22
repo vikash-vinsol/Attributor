@@ -36,7 +36,7 @@
 //    self.colorfulColorLabel.text = [NSString stringWithFormat:@"%d outline char",[[self charactersWithAttributes:NSStrokeWidthAttributeName] length]];
     
 
-    self.colorfulColorLabel.text = [NSString stringWithFormat:@"color786 %d",self.changedColourText];
+    self.colorfulColorLabel.text = [NSString stringWithFormat:@"color111 %d",self.changedColourText];
 
     self.outlinedColorLabel.text = [NSString stringWithFormat:@"outline %d",self.changedOutlineText];
 }
