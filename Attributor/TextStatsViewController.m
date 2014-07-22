@@ -50,7 +50,6 @@
         
         id value = [self.textToAnalyze attribute:attributeName atIndex:index effectiveRange:&range];
         
-        NSLog(@"Value %@",value);
         if (value)
         {
             [characters appendAttributedString:[self.textToAnalyze attributedSubstringFromRange:range]];
