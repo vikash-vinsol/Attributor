@@ -63,7 +63,7 @@
 
 - (IBAction)outlineButton:(id)sender
 {
-    [self.body.textStorage addAttributes:@{NSStrokeWidthAttributeName : @-3,NSStrokeColorAttributeName : [UIColor blackColor]} range:self.body.selectedRange];
+    [self.body.textStorage addAttributes:@{NSStrokeWidthAttributeName : @-4,NSStrokeColorAttributeName : [UIColor blackColor]} range:self.body.selectedRange];
      
     _outlinedNumber += self.body.selectedRange.length;
     
